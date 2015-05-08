@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Zahori_android</string>
+
+
+    <string name="title_section1">Map</string>
+    <string name="title_section2">Values</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_xyplot">X Y Plot</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_latitude">Latitude</string>
+    <string name="lbl_longitude">Longitude</string>
+    <string name="lbl_elevation">Elevation</string>
+    <string name="lbl_head">Water Head</string>
+    <string name="lbl_depth">Water Depth</string>
+    <string name="lbl_value">Water Level</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_layer_1">Layer 1</string>
+    <string name="lbl_layer_2">Layer 2</string>
+    <string name="lbl_water_level">Water Level</string>
+
+</resources>

@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xavieralmolda.zahori_android.DataFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_latitude"
+        android:id="@+id/lblLatitude"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtLatitude"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_longitude"
+        android:id="@+id/lblLongitude"
+        android:layout_alignLeft="@id/lblLatitude"
+        android:layout_below="@id/lblLatitude"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtLongitude"
+        android:layout_alignLeft="@id/txtLatitude"
+        android:layout_below="@id/txtLatitude"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNewLevel"
+        android:text="Get values"
+        android:layout_alignLeft="@id/lblLongitude"
+        android:layout_below="@id/lblLongitude"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_elevation"
+        android:id="@+id/lblElevation"
+        android:layout_alignLeft="@id/lblLongitude"
+        android:layout_below="@id/btnNewLevel"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtElevation"
+        android:layout_alignLeft="@id/txtLongitude"
+        android:layout_below="@id/btnNewLevel"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <!--<ImageButton-->
+        <!--android:layout_width="34dp"-->
+        <!--android:layout_height="34dp"-->
+        <!--android:id="@+id/btnUpdateElevation"-->
+        <!--android:layout_toLeftOf="@id/txtElevation"-->
+        <!--android:layout_alignTop="@id/txtElevation"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:src="@drawable/ic_action_refresh" />-->
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_water_level"
+        android:id="@+id/lblWaterlevel"
+        android:layout_alignLeft="@id/lblElevation"
+        android:layout_below="@id/lblElevation"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtWaterLevel"
+        android:layout_alignLeft="@id/txtElevation"
+        android:layout_below="@id/txtElevation"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_depth"
+        android:id="@+id/lblWaterDepth"
+        android:layout_alignLeft="@id/lblWaterlevel"
+        android:layout_below="@id/lblWaterlevel"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtWateDepth"
+        android:layout_alignLeft="@id/txtWaterLevel"
+        android:layout_below="@id/txtWaterLevel"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:id="@+id/btnUpdateDepth"
+        android:layout_toLeftOf="@id/txtWateDepth"
+        android:layout_alignTop="@id/txtWateDepth"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_action_upload" />
+
+
+</RelativeLayout>

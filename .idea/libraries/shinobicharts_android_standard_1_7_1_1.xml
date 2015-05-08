@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="shinobicharts-android-standard-1.7.1-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/shinobichartsandroidlibrary/libs/shinobicharts-android-standard-1.7.1-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

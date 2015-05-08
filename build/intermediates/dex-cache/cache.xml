@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\Zahori_android\shinobichartsandroidlibrary\unspecified\libs\shinobicharts-android-standard-1.7.1-1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="70c5b4b123d9d2fbcb1631aaf95198b1b36a427c">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\shinobicharts-android-standard-1.7.1-1-2d8d8908cc47ab3c1dcbc1affdc3fb573f2fc083.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\classes-b47a3e559ff159c98cb2ffc9ff0012352f263d18.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\classes-d6652301ea4d7ed2d547707bbcca04513923a35b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-750b6f1bfc226c53c6850e36b842921dd989ed4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\classes-26fe707fa8cf5dd6c1d398feb23ebc694f9ecfb7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2c77dde852aabe9d5f81c6dcc202380cd6eb5530.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\Zahori_android\shinobichartsandroidlibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b7193a27a92b236ba514db715d2498de182ea119">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\classes-815f06052c14d976cc85360c92d129f8a511bff6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\app\build\intermediates\pre-dexed\debug\classes-d16daca374129dc04acc3f32860639caddfb4da4.jar" />
+    </item>
+
+</items>

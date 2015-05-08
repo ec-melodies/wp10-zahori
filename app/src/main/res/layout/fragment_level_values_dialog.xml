@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xavieralmolda.zahori_android.DataFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_layer_1"
+        android:id="@+id/lblLayer1"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_value"
+        android:id="@+id/lblValue1"
+        android:layout_alignLeft="@id/lblLayer1"
+        android:layout_below="@id/lblLayer1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtValue1"
+        android:layout_below="@id/lblLayer1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_date"
+        android:id="@+id/lblDate1"
+        android:layout_below="@id/lblValue1"
+        android:layout_alignLeft="@id/lblValue1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtDate1"
+        android:layout_below="@id/txtValue1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_layer_2"
+        android:id="@+id/lblLayer2"
+        android:layout_below="@id/txtDate1"
+        android:layout_alignLeft="@id/lblLayer1"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_value"
+        android:id="@+id/lblValue2"
+        android:layout_below="@id/lblLayer2"
+        android:layout_alignLeft="@id/lblLayer2"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtValue2"
+        android:layout_below="@id/lblLayer2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_date"
+        android:id="@+id/lblDate2"
+        android:layout_below="@id/lblValue2"
+        android:layout_alignLeft="@id/lblValue2"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtDate2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtValue2"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>
