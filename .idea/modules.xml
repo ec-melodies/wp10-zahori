@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Zahori_android.iml" filepath="$PROJECT_DIR$/Zahori_android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/shinobichartsandroidlibrary/shinobichartsandroidlibrary.iml" filepath="$PROJECT_DIR$/shinobichartsandroidlibrary/shinobichartsandroidlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wp10-zahori.iml" filepath="$PROJECT_DIR$/wp10-zahori.iml" />
     </modules>
   </component>
 </project>

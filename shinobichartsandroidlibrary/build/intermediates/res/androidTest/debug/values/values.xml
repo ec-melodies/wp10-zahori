@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/shinobichartsandroidlibrary/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <bool name="sc_darkShowGridLines">true</bool>
     <bool name="sc_dashedGridLines">false</bool>
