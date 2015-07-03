@@ -315,7 +315,7 @@ public class MapFragment extends Fragment {
 
 
 
-    private class GetDepthValuesTask extends AsyncTask<String, Void, ArrayList<SeriesValue>> {
+    private class GetDepthValuesTask extends AsyncTask<String, Void, ArrayList<LevelValuesItem>> {
 
 
         public GetDepthValuesTask(){
@@ -323,9 +323,9 @@ public class MapFragment extends Fragment {
         }
 
         @Override
-        protected ArrayList<SeriesValue> doInBackground(String... params) {
+        protected ArrayList<LevelValuesItem> doInBackground(String... params) {
 
-            ArrayList<SeriesValue> result = new ArrayList<>();
+            ArrayList<LevelValuesItem> result = new ArrayList<>();
 
             String urlString = "http://h2vmservice.cloudapp.net/GetDepth?longitude=" + mainActivity._longitude + "&latitude=" + mainActivity._latitude + "&modelid=3&clientid=tahal";
 
@@ -370,13 +370,13 @@ public class MapFragment extends Fragment {
 
         }
 
-        protected void onPostExecute(ArrayList<SeriesValue> result) {
+        protected void onPostExecute(ArrayList<LevelValuesItem> result) {
 
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
             if(result.size() == 2) {
 
-                LevelValuesDialogFragment dialog = LevelValuesDialogFragment.newInstance(sdf.format(result.get(0).Date), sdf.format(result.get(1).Date), result.get(0).Value, result.get(1).Value);
+                LevelValuesDialogFragment dialog = LevelValuesDialogFragment.newInstance(sdf.format(result.get(0).Date), sdf.format(result.get(1).Date), result.get(0).Level, result.get(1).Level);
                 dialog.show(getFragmentManager(), "dialog");
 
             }
@@ -385,13 +385,15 @@ public class MapFragment extends Fragment {
 
 
 
-        private ArrayList<SeriesValue> parseXML( XmlPullParser parser ) throws XmlPullParserException, IOException {
+        private ArrayList<LevelValuesItem> parseXML( XmlPullParser parser ) throws XmlPullParserException, IOException {
 
-            ArrayList<SeriesValue> result = new ArrayList<>();
+            ArrayList<LevelValuesItem> result = new ArrayList<>();
 
             int eventType = parser.getEventType();
 
             SimpleDateFormat sdf =  new SimpleDateFormat("yyyy-MM-dd");
+
+            String layerName = "";
 
             while( eventType!= XmlPullParser.END_DOCUMENT ) {
 
@@ -406,12 +408,20 @@ public class MapFragment extends Fragment {
                         if ( name.equals("value")) {
 
                             try {
-                                SeriesValue val = new SeriesValue(sdf.parse(parser.getAttributeValue("", "dateTime")), Double.parseDouble(parser.nextText()));
+                                //SeriesValue val = new SeriesValue(sdf.parse(parser.getAttributeValue("", "dateTime")), Double.parseDouble(parser.nextText()));
+                                LevelValuesItem val = new LevelValuesItem(layerName,Double.parseDouble(parser.nextText()), sdf.parse(parser.getAttributeValue("", "dateTime")));
                                 result.add(val);
                             }
                             catch(ParseException pe) {
                                 Log.d("PARSE", "Parse exception in depth value");
                             }
+                        }
+
+                        if( name.equals("siteName")){
+
+                            String tempLayer = parser.nextText();
+                            layerName = tempLayer.substring(tempLayer.lastIndexOf('_'));
+
                         }
 
                         break;
