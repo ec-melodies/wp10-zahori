@@ -2,34 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-3a7ac9b3316cb8cd905de15e174b1fb622bc28ce.jar" />
-    </item>
-    <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\wp10-zahori\shinobichartsandroidlibrary\unspecified\libs\shinobicharts-android-standard-1.7.1-1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="70c5b4b123d9d2fbcb1631aaf95198b1b36a427c">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\shinobicharts-android-standard-1.7.1-1-af590d9ab609fefeb3a42dadccce0ff2b20b3bc1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-d9f01b5576233773372ed24985a38a03e852b905.jar" />
-    </item>
-    <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\wp10-zahori\shinobichartsandroidlibrary\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d7abf6ce8279a6c5f31eb892664dd92207ef16d6">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-b8f7db391d7d32847aeea0fd1fa1d986c235deda.jar" />
-    </item>
-    <item
         jar="C:\Users\Xavier Almolda\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -37,25 +9,53 @@
         <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-750b6f1bfc226c53c6850e36b842921dd989ed4f.jar" />
     </item>
     <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\wp10-zahori\shinobichartsandroidlibrary\unspecified\jars\libs\shinobicharts-android-standard-1.7.1-1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-240f2f3ab86f7542e7a0cc5585be2be4924f8c2c.jar" />
+        sha1="70c5b4b123d9d2fbcb1631aaf95198b1b36a427c">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\shinobicharts-android-standard-1.7.1-1-f95754763ef58df07042846b3ac4b6e091078558.jar" />
     </item>
     <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-5d32db7f85015b9be4b75382a27b24486904b144.jar" />
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-63d2633acc8a5633446a8ceb16104683add6a077.jar" />
     </item>
     <item
-        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\wp10-zahori\shinobichartsandroidlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9570cbc99faedb3a23ef290c2b88e8d5c1ff04a9">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-44a608a7fcd56216e0c24089a5c342a233cb92f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-03aff24279ddbf6de9354699240f8b942ac88205.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-7879b837ff3363bd13895bbefe4268b81273babc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-0e73104040185c5d21a79c0bb733be268c71a730.jar" />
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\classes-e0537db178e555ef1c00479c1a11c4ed562c7e5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Xavier Almolda\AndroidStudioProjects\Zahori_android\wp10-zahori\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2512008f875eacb362456baf878e6929800034e4.jar" />
     </item>
 
 </items>
