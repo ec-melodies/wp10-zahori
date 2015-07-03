@@ -1,8 +1,10 @@
 package com.example.xavieralmolda.zahori_android;
 
 import java.text.DateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
@@ -50,6 +52,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
      * The {@link ViewPager} that will host the section contents.
      */
     ViewPager mViewPager;
+
+    public ArrayList<LevelValuesItem> myDataset =  new ArrayList<>();
 
     public double _latitude = 41.325157;
     public double _longitude = 2.09799;

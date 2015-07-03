@@ -34,6 +34,7 @@ import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 /**
@@ -376,7 +377,10 @@ public class MapFragment extends Fragment {
 
             if(result.size() == 2) {
 
-                LevelValuesDialogFragment dialog = LevelValuesDialogFragment.newInstance(sdf.format(result.get(0).Date), sdf.format(result.get(1).Date), result.get(0).Level, result.get(1).Level);
+                mainActivity.myDataset = result;
+
+                //LevelValuesDialogFragment dialog = LevelValuesDialogFragment.newInstance(sdf.format(result.get(0).Date), sdf.format(result.get(1).Date), result.get(0).Level, result.get(1).Level);
+                LevelValuesDialogFragment dialog = LevelValuesDialogFragment.newInstance();
                 dialog.show(getFragmentManager(), "dialog");
 
             }
@@ -409,7 +413,8 @@ public class MapFragment extends Fragment {
 
                             try {
                                 //SeriesValue val = new SeriesValue(sdf.parse(parser.getAttributeValue("", "dateTime")), Double.parseDouble(parser.nextText()));
-                                LevelValuesItem val = new LevelValuesItem(layerName,Double.parseDouble(parser.nextText()), sdf.parse(parser.getAttributeValue("", "dateTime")));
+                                Date d = sdf.parse(parser.getAttributeValue("", "dateTime"));
+                                LevelValuesItem val = new LevelValuesItem(layerName,Double.parseDouble(parser.nextText()),d );
                                 result.add(val);
                             }
                             catch(ParseException pe) {
@@ -420,7 +425,7 @@ public class MapFragment extends Fragment {
                         if( name.equals("siteName")){
 
                             String tempLayer = parser.nextText();
-                            layerName = tempLayer.substring(tempLayer.lastIndexOf('_'));
+                            layerName = "Layer " + tempLayer.substring(tempLayer.lastIndexOf('_')+1);
 
                         }
 

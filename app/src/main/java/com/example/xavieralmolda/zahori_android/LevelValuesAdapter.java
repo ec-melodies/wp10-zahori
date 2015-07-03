@@ -83,9 +83,9 @@ public class LevelValuesAdapter extends RecyclerView.Adapter<LevelValuesAdapter.
         // - replace the contents of the view with that element
         final LevelValuesItem name = mDataset.get(position);
         holder.txtLayer.setText(mDataset.get(position).Layer);
-        holder.txtLevel.setText(mDataset.get(position).Level.toString());
+        holder.txtLevel.setText(String.format("%.4f", mDataset.get(position).Level));
 
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
         holder.txtDate.setText(formatter.format(mDataset.get(position).Date));
 
