@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.OrientationHelper;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,7 +25,8 @@ public class LevelValuesDialogFragment extends DialogFragment {
 
     private RecyclerView mRecyclerView;
     private LevelValuesAdapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+    //private RecyclerView.LayoutManager mLayoutManager;
+    private MyLinearLayoutManager mLayoutManager;
 
     static LevelValuesDialogFragment newInstance() {
         LevelValuesDialogFragment f = new LevelValuesDialogFragment();
@@ -54,7 +56,10 @@ public class LevelValuesDialogFragment extends DialogFragment {
         mRecyclerView.setHasFixedSize(true);
 
         // use a linear layout manager
-        mLayoutManager = new LinearLayoutManager(getActivity());
+        //mLayoutManager = new LinearLayoutManager(getActivity());
+        //mRecyclerView.setLayoutManager(mLayoutManager);
+
+        mLayoutManager = new MyLinearLayoutManager(getActivity(), OrientationHelper.VERTICAL, false);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         mAdapter = new LevelValuesAdapter(mDataset);
