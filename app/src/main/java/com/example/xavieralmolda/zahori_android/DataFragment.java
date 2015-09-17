@@ -122,6 +122,16 @@ public class DataFragment extends Fragment {
             }
         });
 
+        ImageButton btnSend = (ImageButton) v.findViewById(R.id.btnUpdateDepth);
+        btnSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SendValueDialogFragment dialog = SendValueDialogFragment.newInstance(Double.parseDouble(txtLatitude.getText().toString()),Double.parseDouble(txtLongitude.getText().toString()));
+                dialog.show(getFragmentManager(),"position");
+
+            }
+        });
+
         return v;
     }
 
