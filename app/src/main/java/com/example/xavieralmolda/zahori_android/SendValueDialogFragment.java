@@ -141,13 +141,6 @@ public class SendValueDialogFragment extends DialogFragment {
         @Override
         protected Boolean doInBackground(String... params) {
 
-
-            Double result = 0.0;
-
-            //String urlString="http://192.168.1.38:15001/NewValue?userid=3";
-
-            //Log.d("URL", urlString);
-
             // HTTP Put
 
             HttpResponse response;

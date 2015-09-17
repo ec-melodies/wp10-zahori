@@ -25,7 +25,7 @@ public class LevelValuesDialogFragment extends DialogFragment {
 
     private RecyclerView mRecyclerView;
     private LevelValuesAdapter mAdapter;
-    //private RecyclerView.LayoutManager mLayoutManager;
+
     private MyLinearLayoutManager mLayoutManager;
 
     static LevelValuesDialogFragment newInstance() {
@@ -56,8 +56,6 @@ public class LevelValuesDialogFragment extends DialogFragment {
         mRecyclerView.setHasFixedSize(true);
 
         // use a linear layout manager
-        //mLayoutManager = new LinearLayoutManager(getActivity());
-        //mRecyclerView.setLayoutManager(mLayoutManager);
 
         mLayoutManager = new MyLinearLayoutManager(getActivity(), OrientationHelper.VERTICAL, false);
         mRecyclerView.setLayoutManager(mLayoutManager);

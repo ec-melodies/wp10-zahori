@@ -194,9 +194,6 @@ public class XYPlotActivity extends ActionBarActivity {
 
                 in = new BufferedInputStream(urlConnection.getInputStream());
 
-//                result =  convertStreamToString(in);
-
-
             } catch (Exception e ) {
 
                 System.out.println(e.getMessage());
@@ -230,10 +227,10 @@ public class XYPlotActivity extends ActionBarActivity {
 
             for(Series s : _series) {
 
-                SimpleDataAdapter<Date, Double> dataAdapter = new SimpleDataAdapter<Date, Double>();
+                SimpleDataAdapter<Date, Double> dataAdapter = new SimpleDataAdapter<>();
 
                 for (int i = 0; i < s.X.size(); i++) {
-                    dataAdapter.add(new DataPoint<Date, Double>(new Date(s.X.get(i).longValue()), s.Y.get(i).doubleValue()));
+                    dataAdapter.add(new DataPoint<>(new Date(s.X.get(i).longValue()), s.Y.get(i).doubleValue()));
                 }
 
                 LineSeries series = new LineSeries();

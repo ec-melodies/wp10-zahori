@@ -91,13 +91,6 @@ public class MapFragment extends Fragment {
 
                 if(!marker.getTitle().equals("Your position")) {
 
-                    //Toast toast = Toast.makeText(getActivity(), _sites.get(marker.getTitle()).Code, Toast.LENGTH_LONG);
-                    //toast.show();
-
-                    //Intent plotIntent = new Intent(getActivity(), XYPlotActivity.class);
-                    //plotIntent.putExtra("code", _sites.get(marker.getTitle()).Code);
-                    //startActivity(plotIntent);
-
                     SiteClickDialogFragment dialog = SiteClickDialogFragment.newInstance(_sites.get(marker.getTitle()).Code);
                     dialog.show(getFragmentManager(), _sites.get(marker.getTitle()).Code);
 

@@ -193,7 +193,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
             mFragmentManager = fm;
-            mFragmentTags = new HashMap<Integer, String>();
+            mFragmentTags = new HashMap<>();
         }
 
         @Override
@@ -340,8 +340,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     public void onLocationChanged(Location location) {
         mCurrentLocation = location;
         mLastUpdateTime = DateFormat.getTimeInstance().format(new Date());
-//        Toast.makeText(this, "location changed",
-//                Toast.LENGTH_SHORT).show();
 
         this._latitude = mCurrentLocation.getLatitude();
         this._longitude = mCurrentLocation.getLongitude();
