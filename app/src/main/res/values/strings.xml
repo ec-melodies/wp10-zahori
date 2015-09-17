@@ -23,5 +23,9 @@
     <string name="lbl_layer_1">Layer 1</string>
     <string name="lbl_layer_2">Layer 2</string>
     <string name="lbl_water_level">Water Level</string>
+    <string name="lblShowGraph">Show Graph</string>
+    <string name="lblSendValue">Send new value</string>
+    <string name="btnSendValue">Send!</string>
+    <string name="lblNewValue">New Value: </string>
 
 </resources>
