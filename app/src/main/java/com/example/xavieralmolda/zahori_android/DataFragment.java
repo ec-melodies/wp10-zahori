@@ -266,7 +266,7 @@ public class DataFragment extends Fragment {
 
             ArrayList<SeriesValue> result = new ArrayList<>();
 
-            String urlString = "http://h2vmservice.cloudapp.net/GetDepth?longitude=" + mainActivity._longitude + "&latitude=" + mainActivity._latitude + "&modelid=3&clientid=tahal";
+            String urlString = "http://h2-melodies.cloudapp.net/ODM/GetDepth?longitude=" + mainActivity._longitude + "&latitude=" + mainActivity._latitude + "&modelid=3&clientid=tahal";
 
             InputStream in = null;
 

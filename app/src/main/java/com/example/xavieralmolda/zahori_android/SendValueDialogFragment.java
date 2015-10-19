@@ -75,7 +75,7 @@ public class SendValueDialogFragment extends DialogFragment {
 
                 if(siteCode == "Current location") {
 
-                    urlString = "http://h2vmservice.cloudapp.net/NewValuePosition?userid=3";
+                    urlString = "http://h2-melodies.cloudapp.net/ODM/NewValuePosition?userid=3";
                     Log.d("URL", urlString);
 
                     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
@@ -93,7 +93,7 @@ public class SendValueDialogFragment extends DialogFragment {
                 }
                 else {
 
-                    urlString = "http://h2vmservice.cloudapp.net/NewValue?userid=3";
+                    urlString = "http://h2-melodies.cloudapp.net/ODM/NewValue?userid=3";
                     Log.d("URL", urlString);
 
                     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
