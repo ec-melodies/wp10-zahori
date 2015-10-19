@@ -190,7 +190,8 @@ public class MapFragment extends Fragment {
             //String urlString="http://192.168.1.37:15003/TTMS_Service/TTMS_Service/GetActivities/aaa"; // URL to call
             //String urlString=params[0]; // URL to call
 
-            String urlString="http://h2vmservice.cloudapp.net/GetODMSites?longitude=" + mainActivity._longitude + "&latitude=" + mainActivity._latitude + "&meters=10000&aquifer=2&clientid=aca"; // URL to call
+            //String urlString="http://h2vmservice.cloudapp.net/GetODMSites?longitude=" + mainActivity._longitude + "&latitude=" + mainActivity._latitude + "&meters=10000&aquifer=2&clientid=aca"; // URL to call
+            String urlString="http://h2-melodies.cloudapp.net/ODM/GetODMSites?longitude=" + mainActivity._longitude + "&latitude=" + mainActivity._latitude + "&meters=10000&aquifer=2&clientid=aca"; // URL to call
 
             InputStream in = null;
 

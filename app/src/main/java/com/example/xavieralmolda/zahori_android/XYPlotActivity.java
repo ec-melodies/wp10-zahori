@@ -181,7 +181,8 @@ public class XYPlotActivity extends ActionBarActivity {
         @Override
         protected Void doInBackground(String... params) {
 
-            String urlString="http://h2vmservice.cloudapp.net/GetWMLFromODM?sitecodes=" + params[0] + "&variablecodes=z_mitja_d,z_mitja_d_sim&sourceid=2,4&clientid=aca"; // URL to call
+            //String urlString="http://h2vmservice.cloudapp.net/GetWMLFromODM?sitecodes=" + params[0] + "&variablecodes=z_mitja_d,z_mitja_d_sim&sourceid=2,4&clientid=aca"; // URL to call
+            String urlString="http://h2-melodies.cloudapp.net/ODM/GetWMLFromODM?sitecodes=" + params[0] + "&variablecodes=z_mitja_d,z_mitja_d_sim&sourceid=2,4&clientid=aca"; // URL to call
 
             InputStream in = null;
 
