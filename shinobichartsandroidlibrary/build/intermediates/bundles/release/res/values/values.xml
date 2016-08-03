@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/bools.xml -->
+    <!-- From: file:/C:/Users/xavia/StudioProjects/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/bools.xml -->
     <eat-comment/>
     <bool name="sc_darkShowGridLines">true</bool>
     <bool name="sc_dashedGridLines">false</bool>
     <bool name="sc_defaultShowGridLines">false</bool>
     <bool name="sc_showGridStripes">false</bool>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/xavia/StudioProjects/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="sc_annotationDarkBackgroundColor">#AAFFFFFF</color>
     <color name="sc_annotationDarkTextColor">#FF000000</color>
@@ -88,7 +88,7 @@
     <color name="sc_yellowDarkFillAlpha">#B3C26A10</color>
     <color name="sc_yellowLightFill">#FFF0BD1E</color>
     <declare-styleable name="ChartTheme"><attr format="color" name="sc_chartTitleColor"/><attr format="color" name="sc_chartBackgroundColor"/><attr format="color" name="sc_plotAreaColor"/><attr format="float" name="sc_titlePadding"/><attr format="float" name="sc_titleMargin"/><attr format="color" name="sc_axisTitleColor"/><attr format="float" name="sc_axisTitleTextSize"/><attr format="color" name="sc_axisLineColor"/><attr format="color" name="sc_tickLineColor"/><attr format="color" name="sc_tickLabelColor"/><attr format="color" name="sc_gridLineColor"/><attr format="boolean" name="sc_showGridLines"/><attr format="boolean" name="sc_dashedGridLines"/><attr format="boolean" name="sc_showGridStripes"/><attr format="color" name="sc_gridStripeColor"/><attr format="color" name="sc_alternateGridStripeColor"/><attr format="color" name="sc_legendTextColor"/><attr format="color" name="sc_legendBorderColor"/><attr format="color" name="sc_legendBackgroundColor"/><attr format="color" name="sc_crosshairLineColor"/><attr format="color" name="sc_crosshairTooltipTextColor"/><attr format="color" name="sc_crosshairTooltipLabelBackgroundColor"/><attr format="color" name="sc_crosshairTooltipBackgroundColor"/><attr format="color" name="sc_crosshairTooltipBorderColor"/><attr format="float" name="sc_crosshairLineWidth"/><attr format="float" name="sc_crosshairPadding"/><attr format="float" name="sc_crosshairTooltipTextSize"/><attr format="float" name="sc_crosshairTooltipCornerRadius"/><attr format="float" name="sc_crosshairTooltipBorderWidth"/><attr format="float" name="sc_lineWidth"/><attr format="color" name="sc_defaultSelectedSeriesColor"/><attr format="float" name="sc_columnLineWidth"/><attr format="float" name="sc_barLineWidth"/><attr format="color" name="sc_seriesLineColor1"/><attr format="color" name="sc_seriesAreaColor1"/><attr format="color" name="sc_seriesAreaGradientColor1"/><attr format="color" name="sc_seriesAreaGradientTransparentColor1"/><attr format="color" name="sc_seriesLineColor2"/><attr format="color" name="sc_seriesAreaColor2"/><attr format="color" name="sc_seriesAreaGradientColor2"/><attr format="color" name="sc_seriesAreaGradientTransparentColor2"/><attr format="color" name="sc_seriesLineColor3"/><attr format="color" name="sc_seriesAreaColor3"/><attr format="color" name="sc_seriesAreaGradientColor3"/><attr format="color" name="sc_seriesAreaGradientTransparentColor3"/><attr format="color" name="sc_seriesLineColor4"/><attr format="color" name="sc_seriesAreaColor4"/><attr format="color" name="sc_seriesAreaGradientColor4"/><attr format="color" name="sc_seriesAreaGradientTransparentColor4"/><attr format="color" name="sc_seriesLineColor5"/><attr format="color" name="sc_seriesAreaColor5"/><attr format="color" name="sc_seriesAreaGradientColor5"/><attr format="color" name="sc_seriesAreaGradientTransparentColor5"/><attr format="color" name="sc_seriesLineColor6"/><attr format="color" name="sc_seriesAreaColor6"/><attr format="color" name="sc_seriesAreaGradientColor6"/><attr format="color" name="sc_seriesAreaGradientTransparentColor6"/><attr format="color" name="sc_pieDonutFlavorColor1"/><attr format="color" name="sc_pieDonutFlavorColor2"/><attr format="color" name="sc_pieDonutFlavorColor3"/><attr format="color" name="sc_pieDonutFlavorColor4"/><attr format="color" name="sc_pieDonutFlavorColor5"/><attr format="color" name="sc_pieDonutFlavorColor6"/><attr format="color" name="sc_defaultCrustColor"/><attr format="float" name="sc_donutCrustThickness"/><attr format="color" name="sc_pieDonutLabelColor"/><attr format="color" name="sc_financialRisingColor"/><attr format="color" name="sc_financialFallingColor"/><attr format="color" name="sc_bandSeriesHighColor"/><attr format="color" name="sc_bandSeriesLowColor"/><attr format="color" name="sc_bandSeriesAreaColor"/><attr format="color" name="sc_bandSeriesAreaInvertedColor"/><attr format="color" name="sc_annotationBackgroundColor"/><attr format="color" name="sc_annotationTextColor"/><attr format="float" name="sc_annotationTextSize"/></declare-styleable>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/xavia/StudioProjects/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <item format="float" name="sc_axisTitleTextSize" type="dimen">16</item>
     <item format="float" name="sc_defaultAnnotationTextSize" type="dimen">12.0</item>
@@ -103,7 +103,7 @@
     <item format="float" name="sc_defaultLineWidth" type="dimen">1.0</item>
     <item format="float" name="sc_defaultTitleMargin" type="dimen">10.0</item>
     <item format="float" name="sc_defaultTitlePadding" type="dimen">6.0</item>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/xavia/StudioProjects/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="AnnotationCannotConvertNullX">Cannot convert null X value for annotation.</string>
     <string name="AnnotationCannotConvertNullY">Cannot convert null Y value for annotation.</string>
@@ -167,7 +167,7 @@
     <string name="TooltipNullDataPoint">Cannot update tooltip with null dataPoint.</string>
     <string name="TooltipNullView">Tooltip cannot have a null View.</string>
     <string name="TooltipNullXOrYInCenterPoint">Center cannot be null or have null X and Y values.</string>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/xavia/StudioProjects/wp10-zahori/shinobichartsandroidlibrary/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.Default" parent="@android:style/Theme">        
 	    <item name="sc_showGridLines">@bool/sc_defaultShowGridLines</item>

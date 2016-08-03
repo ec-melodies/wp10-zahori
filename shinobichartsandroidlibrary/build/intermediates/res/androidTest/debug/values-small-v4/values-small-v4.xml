@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/C:/Users/Xavier%20Almolda/AndroidStudioProjects/Zahori_android/wp10-zahori/shinobichartsandroidlibrary/build/intermediates/bundles/debug/res/values-small-v4/values-small-v4.xml -->
-    <eat-comment/>
-    <item format="float" name="sc_axisTitleTextSize" type="dimen">12</item>
-    <item format="float" name="sc_defaultAnnotationTextSize" type="dimen">10.0</item>
-</resources>
